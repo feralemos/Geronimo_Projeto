@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Geronimo_Projeto</string>
+
+    <!--Action Bar XML-->
+    <string name="menu_item_novo">Novo</string>
+    <string name="menu_item_salvar">Salvar</string>
+    <string name="menu_item_excluir">Excluir</string>
+    <string name="menu_item_cancelar">Cancelar</string>
+    <string name="menu_item_pesquisar">Pesquisar</string>
+
+
+    <!--List e inputs XML-->
+    <string name="tela1_lutadores">Lutadores</string>
+    <string name="tela1_nome">Nome:</string>
+    <string name="tela1_hint_nome">Insira aqui seu nome</string>
+    <string name="tela1_sobrenome">Sobrenome:</string>
+    <string name="tela1_hint_sobrenome">Insira aqui seu sobrenome</string>
+    <string name="tela1_peso">Peso:</string>
+    <string name="tela1_hint_peso">Insira aqui seu peso</string>
+    <string name="tela1_categoria">Categoria:</string>
+    <string name="tela1_hint_categoria">Insira aqui sua categoria</string>
+
+
+</resources>

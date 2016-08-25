@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tela1_nome"
+            android:id="@+id/TexView_nome"
+            android:textColor="#0459f7" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText_nome"
+            android:hint="@string/tela1_hint_nome"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tela1_sobrenome"
+            android:id="@+id/TextView_sobrenome"
+            android:layout_marginTop="10dp"
+            android:textColor="#0b61e4" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText_sobrenome"
+            android:hint="@string/tela1_hint_sobrenome" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tela1_peso"
+            android:id="@+id/TextView_peso"
+            android:layout_marginTop="10dp"
+            android:textColor="#0445c7" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText_peso"
+            android:hint="@string/tela1_hint_peso"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tela1_categoria"
+            android:id="@+id/TextView_categoria"
+            android:layout_marginTop="10dp"
+            android:textColor="#0f5de4" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/editText_categoria"
+            android:hint="@string/tela1_hint_categoria" />
+    </LinearLayout>
+</LinearLayout>
